@@ -149,11 +149,13 @@ export const AuthProvider = ({ children }) => {
     "/blog",
     "/admin-login",
     "/google-callback",
+    "/cart",
   ];
 
   const isPublicRoute =
     publicRoutes.includes(pathname) ||
     pathname.startsWith("/batchid") ||
+    pathname.startsWith("/marketplace") ||
     pathname.startsWith("/api/public") ||
     pathname.startsWith("/admin");
 

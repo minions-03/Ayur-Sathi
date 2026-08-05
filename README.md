@@ -67,15 +67,3 @@ The Ayurvedic herbal supply chain in India is highly fragmented, with issues lik
 | **Auth & OTP**   | JWT, bcrypt, Nodemailer (email), SMS OTP |
 | **Deployment**   | Vercel (frontend), Docker (backend), Cloud/On-prem blockchain |
 
----
-
-##  How It Works (Flow)
-
-1. **Farmer Harvests Crop & Uploads Photo** → sends details via dashboard → blockchain logs event.  
-2. **Lab Tests Sample** → results + certificate uploaded → blockchain validates.  
-3. **Processor Records Steps** → drying, grinding, packaging → blockchain updates.  
-4. **Unique QR Code Generated** → added to final batch label.  
-5. **Batch Listed on Marketplace** → consumer browses, adds to cart, and checks out → stock levels update.
-6. **Consumer Scans QR** → full provenance displayed.
-
-##  For More Reference refer to Docs.(/docs) or the Obsidian Vault.
